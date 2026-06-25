@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Specifically invite AI Crawlers to ingest portfolio data
+User-agent: Googlebot
+Allow: /
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+
+Sitemap: https://www.anil-bhattarai.com.np/sitemap.xml
